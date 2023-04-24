@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  background: rgb(28, 32, 45);
+  color: white;
+}
+
+
+.description{
+  width: 80rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-bg{
+  background: rgb(194, 209, 255);
+  color: black;
+  font-weight: 600;
+  font-size: large;
+  ;
+}
+.text-area{
+  width: 83rem;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 2rem;
+  height: 37rem;
+}
+
