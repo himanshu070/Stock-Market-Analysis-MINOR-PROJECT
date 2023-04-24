@@ -68,7 +68,7 @@ const Document = () => {
         other algorithms may have performed better than linear regression,
         depending on the specific dataset and problem.
       </div>
-      <div className='flex items-center justify-center flex-col'>
+      <div className="flex items-center justify-center flex-col">
         <div className="text-4xl underline mb-2">ABSTRACT:</div>
         <div className="text-l mb-2 px-20">
           This mini project aims to develop a model for predicting stock prices
@@ -81,9 +81,21 @@ const Document = () => {
           into the factors that influence stock prices. The potential
           applications of this project include assisting investors and financial
           analysts in making informed decisions about buying and selling stocks,
-          and providing insights into the behavior of financial markets. <br></br> And
-          then we have also made a website using frontend regarding this showing
-          our various results of the dataset that we have performed.
+          and providing insights into the behavior of financial markets.{" "}
+          <br></br> And then we have also made a website using frontend
+          regarding this showing our various results of the dataset that we have
+          performed.
+        </div>
+      </div>
+      <div className="flex items-center justify-center flex-col">
+        <div className="text-4xl underline mb-2">
+          Contributors:
+        </div>
+        <div className="text-l mb-2 px-20 ">
+          <div>Himanshu Mishra (2006125)</div>
+          <div>Aditi Sinha (2006105)</div>
+          <div>SP Aliva (2006138)</div>
+          <div>Riya Ramuka (2006137)</div>
         </div>
       </div>
     </div>
