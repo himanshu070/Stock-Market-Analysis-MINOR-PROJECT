@@ -23,7 +23,7 @@ body {
 
 
 .description{
-  width: 80rem;
+  /* width: 80rem; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,7 +37,7 @@ body {
   ;
 }
 .text-area{
-  width: 83rem;
+  /* width: 83rem; */
   border-radius: 15px;
   padding: 10px;
   margin: 2rem;

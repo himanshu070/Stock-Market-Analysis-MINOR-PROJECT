@@ -9,34 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
 
   const compRef = useRef();
-  const graphRef = useRef()
-
-  const imgs = {
-    tcsheatmap: "/tcsheatmap.png",
-    tcsboxplot: "/tcsboxplot.png",
-    tcshistogram: "/tcshistogram.png",
-    tcsscatter: "/tcsscatter.png",
-    tcspredictedvsactual: "/tcspredictedvsactual.png",
-
-    britaniaheatmap: "/britaniaheatmap.png",
-    britaniaboxplot: "/britaniaboxplot.png",
-    britaniahistogram: "/britaniahistogram.png",
-    britaniascatter: "/britaniascatter.png",
-    britaniapredictedvsactual: "/britaniapredictedvsactual.png",
-
-    sbinheatmap: "/sbinheatmap.png",
-    sbinboxplot: "/sbinboxplot.png",
-    sbinhistogram: "/sbinhistogram.png",
-    sbinscatter: "/sbinscatter.png",
-    sbinpredictedvsactual: "/sbinpredictedvsactual.png",
-
-    adaniheatmap: "/adaniheatmap.png",
-    adaniboxplot: "/adaniboxplot.png",
-    adanihistogram: "/adanihistogram.png",
-    adaniscatter: "/adaniscatter.png",
-    adanipredictedvsactual: "/adanipredictedvsactual.png",
-  };
-
+  const graphRef = useRef();
 
   const [isDocument, setIsDocument] = useState(false)
 
